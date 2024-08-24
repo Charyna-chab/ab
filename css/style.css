@@ -1,0 +1,31 @@
+table,th,td{
+    border: 1px solid rgb(207, 191, 191);
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    margin: auto;
+    padding: 20px;
+    margin-top: 5%;
+    text-align: center;
+    font-size: larger;
+}
+table{
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+
+}
+th{
+    width: 50vh;
+    background: green;
+}
+tbody tr:nth-child(even){
+    background: #f2f2f2;
+}
+tbody tr:nth-child(2) td:nth-child(3){
+    color: rgb(138, 11, 11);
+    background: rgb(243, 163, 190) ;
+}
+tbody tr:nth-child(4) td:nth-child(3){
+    color: rgb(138, 11, 11);
+    background: rgb(243, 163, 190) ;
+}
